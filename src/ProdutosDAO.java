@@ -16,13 +16,14 @@ import java.util.ArrayList;
 
 public class ProdutosDAO {
     Connection conn;
+    PreparedStatement stmt;
     
     public void cadastrarProduto(ProdutosDTO produto) {
-        conn = new conectaDAO().connectDB();
+        conectaDAO conectaDao = new conectaDAO();
+        boolean status = conectaDao.connectDB();
         
         try {
             String sql = "insert into produtos (nome, valor, status) values (?, ?, ?)";
-            PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setString(1, produto.getNome());
             stmt.setInt(2, produto.getValor());
             stmt.setString(3, produto.getStatus());
