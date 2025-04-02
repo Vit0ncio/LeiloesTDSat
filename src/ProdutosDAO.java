@@ -11,7 +11,6 @@ import java.sql.PreparedStatement;
 import java.sql.Connection;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
-import java.sql.ResultSet;
 import java.util.ArrayList;
 
 public class ProdutosDAO {
@@ -20,10 +19,11 @@ public class ProdutosDAO {
     
     public void cadastrarProduto(ProdutosDTO produto) {
         conectaDAO conectaDao = new conectaDAO();
-        boolean status = conectaDao.connectDB();
+        conn = conectaDao.connectDB();
         
         try {
             String sql = "insert into produtos (nome, valor, status) values (?, ?, ?)";
+            stmt = conn.prepareStatement(sql);
             stmt.setString(1, produto.getNome());
             stmt.setInt(2, produto.getValor());
             stmt.setString(3, produto.getStatus());
