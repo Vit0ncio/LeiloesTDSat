@@ -8,12 +8,12 @@
  * @author Adm
  */
 public class ProdutosDTO {
-    private Integer id;
+    private Long id;
     private String nome;
     private Integer valor;
     private String status;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
@@ -29,7 +29,7 @@ public class ProdutosDTO {
         return status;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

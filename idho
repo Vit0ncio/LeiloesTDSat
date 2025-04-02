@@ -1,0 +1,47 @@
+[33mcommit f3811d3e20b77843992223e7a22bf2c17c75d060[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Wed Apr 2 09:10:34 2025 -0300
+
+    Corrigido o cadastro de produtos
+
+[33mcommit 3e7c34a77cdd6ab28fd259ee06679dc499ced423[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Wed Apr 2 09:00:44 2025 -0300
+
+    Corrigido o acesso ao banco de dados
+
+[33mcommit fd20add9bc81dc807c2a92132c195a3123cc4256[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Wed Apr 2 08:58:28 2025 -0300
+
+    Adicionado a função de Salvar produtos
+
+[33mcommit afad6a00b897a645f32ac12ad3a09ce2326f2b59[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Tue Apr 1 12:05:24 2025 -0300
+
+    Funcionalidade Salvar funcionando
+
+[33mcommit 0dacf68372772a6a91987f3e15511df07d37f738[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Tue Apr 1 11:28:20 2025 -0300
+
+    Define cadastroVIEW como tela principal
+
+[33mcommit de8c765a307dcc5daff955ed06157e4b714289a3[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Tue Apr 1 10:00:16 2025 -0300
+
+    Atualização do README com detalhes do projeto
+
+[33mcommit 5cf815eea047c7a505da9022906888ed298c8374[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Tue Apr 1 09:52:09 2025 -0300
+
+    README.md com informações do projeto
+
+[33mcommit d24bc9fe750efcda337b3cd475e654596039f966[m
+Author: Vitor Luis <vitorluisgomesvieira0@gmail.com>
+Date:   Tue Apr 1 09:49:42 2025 -0300
+
+    Projeto inicial
